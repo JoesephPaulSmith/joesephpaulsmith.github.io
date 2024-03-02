@@ -6,11 +6,11 @@ function init(){
     let targetSect = $(this).attr('sref'); 
 
     $('.contentSect').fadeOut(100);
-    $('.menuItem').css('background-color', '#EDD170');
+    $('.menuItem').css('background-color', 'blanchedalmond');
 
     $('.menuItem').filter(function(){
       return `${$(this).attr('sref')}` === targetSect;
-    }).css('background-color', '#DCEBB8');    
+    }).css('background-color', 'rgb(255, 248, 237)');    
 
     setTimeout(function(){
       $('.contentSect').filter(function(){
@@ -24,7 +24,7 @@ function init(){
 
   $('#titleLink').click(function(){
 
-    $('.menuItem').css('background-color', '#EDD170');
+    $('.menuItem').css('background-color', 'blanchedalmond');
     $('.contentSect').fadeOut(100);
 
     setTimeout(function(){
