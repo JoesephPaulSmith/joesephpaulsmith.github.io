@@ -353,10 +353,14 @@ a {
         position: relative;
         width: 95%;
         height: auto;
-        background-color: #E1B58D;
-		color: #010101;
+        background-color: #0B6E4F;
+		color: blanchedalmond;
         padding: 10px;
         margin: 5px;
+
+        a {
+            color: #95D5B2;
+        }
     }
 
     .portfolioImage, .boxImage {
