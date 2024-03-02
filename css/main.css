@@ -12,10 +12,11 @@
 
 html {
     color: #EEEEEE;
-    background-color: #2E577B;
-    font-size: 1.25em;
+    background-color: #073B3A;
+    font-size: 1.1em;
     line-height: 1.4;
-    font-family: 'Merriweather', serif;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 body {
@@ -67,6 +68,7 @@ iframe,
 img,
 svg,
 video {
+    border-radius: 3px;
     vertical-align: middle;
 }
 
@@ -128,7 +130,7 @@ h1, h2 {
 }
 
 h3, h4, h5{
-    font-family: 'Merriweather', serif;
+    font-family: 'Courier New', monospace;
 }
 
 #titleCell {
@@ -144,7 +146,7 @@ h3, h4, h5{
 }
 
 #menuCell {
-    background-color: #EDD170;
+    background-color: blanchedalmond;
 	color: #010101;
     grid-column: 1;
     grid-row: 2;
@@ -161,7 +163,7 @@ h3, h4, h5{
 }
 
 .menuItem:hover {
-    background-color: #FFDA85 !important;
+    background-color: rgb(255, 248, 237) !important;
     cursor: pointer;
 }
 
@@ -169,8 +171,8 @@ h3, h4, h5{
     grid-column: 1;
     grid-row: 3;
     padding: 20px;
-    background-color: #86FAFF;
-	font-family: 'Lato', sans-serif;
+    background-color: #21D375;
+	font-family:'Courier New', monospace;
 	color: #010101;
 }
 
@@ -203,10 +205,18 @@ h3, h4, h5{
 
 .portfolioItem, .boxItem {
     position: relative;
-    background-color: #E1B58D;
-	color: #010101;
+    background-color: #0B6E4F;
+	color: blanchedalmond;
     padding: 10px;
     margin: 5px;
+
+    a {
+        color: #95D5B2;
+    }
+}
+
+a {
+    color: #073B3A;
 }
 
 /*.portfolioItem a:link{
