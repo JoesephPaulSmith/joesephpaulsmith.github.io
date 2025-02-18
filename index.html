@@ -66,6 +66,29 @@
         width: auto;
     }
 
+    .featuredDocsFrame {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        vertical-align: center;
+    }
+
+    .featuredDocs {
+        width: 94px;
+        height: auto;
+        position: relative;
+        display: inline-block;
+    }
+
+    #featResume {
+        position: relative;
+    }
+
+    #featPortfolio {
+        position: relative;
+    }
+
     @media only screen and (max-width: 50em) {
     /* Style adjustments for viewports that meet the condition */
         img {
@@ -83,10 +106,24 @@
 <body>
     <div id="content">
         <p>
-            <a href="portfolio_index.html">A portfolio for Joe Smith 
-            can be found through this link</a>, and a <a href="./docs/resume_202402.pdf">
-            downloadable resume is available here.</a> This page is something 
-            simpler. 
+            <div class="featuredDocsFrame">
+                <span>
+                    <div class="featuredDocs" id="featResume">
+                        <a href="docs/resume_202502_12pt_1in.pdf">
+                            <img src="img/doc_icon.svg" width="94"/><br />
+                            Resume
+                        </a>
+                    </div>
+                </span>
+                <span>
+                    <div class="featuredDocs">
+                        <a href="portfolio_index.html">
+                            <img src="img/suitcase.svg" width="94"/><br />
+                            Portfolio
+                        </a>
+                    </div>
+                </span>
+            </div>
         </p>
         <div class="imgwrap">
             <img src="img/brodie-smith-bancroft.png" alt="Brodie and Smith hanging 
@@ -111,7 +148,7 @@
                 </li>
                 <li>
                     <a href="https://www.cityofsaline.org/government/boards___commissions/parks_commission/index.php">
-                        City of Saline Parks Commissioner
+                        City of Saline Parks Commissioner - Chair
                     </a>
                 </li>
             </ul>
